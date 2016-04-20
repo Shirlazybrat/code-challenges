@@ -25,7 +25,7 @@ Write Code Below!
 function doYouPlayTheTheremin(name) {
   
   
-	if(name[0] =="S"){
+	if(name.toUpperCase[0] === "S"){
 		return(name + " does play the Theremin!");
 	}
 	else{
